@@ -1,5 +1,7 @@
 name: 🏷️ Issue labeler
 on:
+  push:
+    branches: [main]
   issues:
     types: [opened]
 
