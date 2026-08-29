@@ -1,9 +1,8 @@
 name: ✅ PR Conventional Commit Validation
 
 on:
-  pull_request:
-    types: [opened, synchronize, reopened, edited]
-
+  push:
+    branches: [main]
 jobs:
   validate-pr-title:
     runs-on: ubuntu-latest
