@@ -1,6 +1,8 @@
 name: Similar Issues via AI MCP
 
 on:
+  push:
+    branches: [main]
   issues:
     types: [opened]
 
